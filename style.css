@@ -71,3 +71,55 @@ img {
 .clear {
   clear: both;
 }
+
+
+@media screen and (max-width: 420px){
+
+  body {
+    font-size: 50px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+  h3 {
+    font-size: 60px;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+  }
+
+  #lezioni {
+
+    width: 100%;
+    margin: auto;
+  }
+
+  .row {
+    background-color: gray;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 50%;
+  }
+  #steps .row>.right {
+    margin-top: 40px;
+    position: relative;
+    left: 25%;
+  }
+
+
+
+}
