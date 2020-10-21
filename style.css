@@ -76,21 +76,21 @@ img {
 @media screen and (max-width: 420px){
 
   body {
-    font-size: 50px;
+    font-size: 18px;
     width: 100%;
     margin: auto;
   }
 
   h1 {
-    font-size: 70px;
+    font-size: 30px;
   }
   h3 {
-    font-size: 60px;
+    font-size: 20px;
   }
 
   .row {
     background-color: #fff;
-
+    width: 100%;
   }
 
   .container {
