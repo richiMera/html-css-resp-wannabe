@@ -77,6 +77,8 @@ img {
 
   body {
     font-size: 50px;
+    width: 100%;
+    margin: auto;
   }
 
   h1 {
@@ -86,19 +88,14 @@ img {
     font-size: 60px;
   }
 
+  .row {
+    background-color: #fff;
+
+  }
+
   .container {
     position: relative;
     text-align: center;
-  }
-
-  #lezioni {
-
-    width: 100%;
-    margin: auto;
-  }
-
-  .row {
-    background-color: gray;
   }
 
   #lezioni .row>.left,
@@ -106,20 +103,22 @@ img {
     width: 100%;
     display: block;
     margin-bottom: 40px;
+    background-color: lightblue;
   }
 
   }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-    width: 50%;
-  }
-  #steps .row>.right {
-    margin-top: 40px;
-    position: relative;
-    left: 25%;
+    width: 100%;
+    background-color: orange;;
+    padding-bottom: 40px;
+    padding-left: 5px;
   }
 
-
+  .left {
+    display: inline-block;
+    float: right;
+  }
 
 }
